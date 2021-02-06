@@ -1,16 +1,10 @@
 $(document).ready(function() {
-   var swiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
+   const swiper = new Swiper('.swiper-container', {
+  coverflowEffect: {
+    rotate: 30,
+    slideShadows: false,
+  },
+
 
         /* Adaptive */
         breakpoints: {
