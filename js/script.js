@@ -11,6 +11,10 @@ $(document).ready(function() {
             prevEl: '.swiper-button-prev',
         },
 
+        keyboard: {
+            enabled: true,
+            onlyInViewport: false,
+        },
         /* Adaptive */
         breakpoints: {
             // when window width is >= 320px
