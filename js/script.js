@@ -1,10 +1,15 @@
 $(document).ready(function() {
-   const swiper = new Swiper('.swiper-container', {
-  coverflowEffect: {
-    rotate: 30,
-    slideShadows: false,
-  },
+ const flowersSlider = new Swiper('.flowers-slider', {
+        // Optional parameters
 
+        loop: true,
+        slidesPerView: 6,
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 
         /* Adaptive */
         breakpoints: {
