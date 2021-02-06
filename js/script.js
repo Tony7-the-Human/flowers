@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    const flowersSlider = new Swiper('.flowers-slider', {
-        // Optional parameters
+   const swiper = new Swiper('.swiper-container', {
+  coverflowEffect: {
+    rotate: 30,
+    slideShadows: false,
 
-        loop: true,
-        slidesPerView: 6,
 
         // Navigation arrows
         navigation: {
